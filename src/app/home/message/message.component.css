@@ -1,0 +1,9 @@
+.s-user-pic div {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background: url(../../assets/crew.jpg) center center;
+    background-size: cover;
+}

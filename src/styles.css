@@ -1,1 +1,112 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.s-page-container {
+    padding: 20px 0;
+    width: 100%;
+    height: auto;
+}
+
+.s-flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-light-font {
+    color: #ffffff;
+    font-family: arial;
+    font-weight: lighter;
+}
+
+.s-dark-font {
+    color: #666666;
+    font-family: arial;
+    font-weight: lighter;
+}
+
+.s-type1-button {
+    background: linear-gradient(to right, #E1163C 0%, #BA154A 100%) repeat fixed 0 0 transparent;
+    border-radius: 4px;
+    width: auto;
+    height: 40px;
+    padding: 0 20px;
+    border: 0;
+}
+
+.s-type2-button {
+    background: purple;
+    border-radius: 4px;
+    width: 80%;
+    height: 40px;
+    padding: 0 20px;
+    border: 0;
+}
+
+.s-spl-type-button {
+    border-radius: 4px;
+    width: 80%;
+    height: 60px;
+    padding: 0 20px;
+    border: 0;
+}
+
+.s-spl-type-button.green {
+    background-color: #188600;
+}
+
+.s-spl-type-button.red {
+    background-color: #E1163C;
+}
+
+.top-bottom-space {
+    margin: 20px 0;
+}
+
+.s-form-input {
+    width: 80%;
+    height: 100px;
+    border-radius: 8px;
+    resize: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.s-mini-font {
+    font-size: 11px;
+}
+
+.s-small-font {
+    font-size: 12px;
+}
+
+.s-medium-font {
+    font-size: 16px;
+}
+
+.s-big-font {
+    font-size: 20px;
+}
+
+
+/*
+.s-occupy-100-width {
+    width: 100%;
+}
+
+.s-occupy-80-width {
+    width: 80%;
+}
+
+.s-occupy-60-width {
+    width: 60%;
+    }
+*/
